@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.wrapper{
+  max-width: 1134px;
+}
+
+
+   nav.logo{
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+   color:black ;
+  }
+  

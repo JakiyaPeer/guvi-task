@@ -1,0 +1,903 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.auth-buttons .login {
+    color: #ff6f61;
+}
+
+.auth-buttons .signup {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.text-content h1 span {
+    color: #ff6f61;
+}
+
+.text-content p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #777;
+}
+
+.discover-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #ff6f61;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image-content {
+    position: relative;
+}
+
+.main-image {
+    width: 400px;
+    height: auto;
+}
+
+.badge {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.award {
+    top: 20px;
+    right: -18px;
+}
+
+.explore {
+    top: 100px;
+    right: -18px;
+}
+
+.review {
+    bottom: 15px;
+    left: -18px;
+}
+
+.badge i {
+    color: #ff6f61;
+    font-size: 24px;
+}
+
+.badge span {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.2;
+}
+
+.search-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px 50px;
+}
+
+.search-option {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.search-option label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.search-option select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.search-btn {
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.things-to-do {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.things-to-do h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.things-to-do h2 span {
+    color: #ff6600;
+}
+
+.things-to-do p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card .icon {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.9em;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card .icon {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.exclusive-deals, .vacation-plan, .testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.exclusive-deals h2, .vacation-plan h2, .testimonials h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.exclusive-deals h2 span, .vacation-plan h2 span, .testimonials h2 span {
+    color: #ff6600;
+}
+
+.deals, .vacation-deals {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.deal-card, .vacation-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.heading1 {
+    text-align: center;
+}
+
+span1 {
+    color: orangered;
+}
+
+.card-container1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* Hide overflow to only show cards in view */
+
+}
+
+.card-wrapper1 {
+    padding-left: 20px;
+    display: flex;
+    transition: transform 0.3s ease;
+    /* Smooth transition for sliding effect */
+
+}
+
+/* .card-frame {
+    display: flex;
+    padding: 32px 100px;
+} */
+
+.card1 {
+    flex: 0 0 22%;
+    /* Show 4 cards per page (100% / 4 = 25%) */
+    box-sizing: border-box;
+    width: 60%;
+    border: 1px solid rgb(225, 223, 223);
+    border-radius: 10px;
+    padding-bottom: 16px;
+    margin-right: 39px;
+    position: relative;
+    /* Ensure the overlay is positioned correctly */
+}
+
+.card-img-container1 {
+    position: relative;
+    /* Container to position the overlay */
+}
+
+.card-img1 {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Dark background with some transparency */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .5s ease;
+    border-radius: 10px;
+    /* Ensure it matches the image's border radius */
+}
+
+.card-img-container:hover .overlay {
+    opacity: 1;
+    /* Show overlay on hover */
+}
+
+.overlay-text {
+    color: white;
+    border: unset;
+    background-color: orangered;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.country {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 28px;
+    margin-bottom: 18px;
+}
+
+.doller {
+    background-color: rgb(234, 198, 185);
+    border: 1px solid rgb(225, 223, 223);
+    border-radius: 4px;
+    margin-left: 8px;
+
+}
+
+.fa-star {
+    color: #ffc600;
+    padding: 8px;
+}
+
+.name,
+strike {
+    color: rgb(155, 154, 154);
+}
+
+.move-btn {
+    text-align: center;
+    padding: 16px;
+}
+.heading2 {
+    text-align: center;
+}
+
+span1 {
+    color: orangered;
+}
+
+.card-container2 {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    /* Hide overflow to only show cards in view */
+
+}
+
+.card-wrapper1 {
+    padding-left: 10px;
+    display: flex;
+    transition: transform 0.3s ease;
+    /* Smooth transition for sliding effect */
+
+}
+
+/* .card-frame {
+    display: flex;
+    padding: 32px 100px;
+} */
+
+.card2 {
+    flex: 0 0 22%;
+    /* Show 4 cards per page (100% / 4 = 25%) */
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid rgb(225, 223, 223);
+    border-radius: 10px;
+    padding-bottom: 16px;
+    margin-right: 29px;
+    position: relative;
+    /* Ensure the overlay is positioned correctly */
+}
+
+.card-img-container2 {
+    position: relative;
+    /* Container to position the overlay */
+}
+
+.card-img2 {
+    border-radius: 10px;
+    width: 50%;
+    height: 20%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.country2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 16px;
+    height: 28px;
+    margin-bottom: 18px;
+}
+
+.doller {
+    background-color: rgb(234, 198, 185);
+    border: 1px solid rgb(225, 223, 223);
+    border-radius: 4px;
+    margin-left: 8px;
+
+}
+
+.fa-star {
+    color: #ffc600;
+    padding: 8px;
+}
+
+.name,
+strike {
+    color: rgb(155, 154, 154);
+}
+
+.move-btn {
+    text-align: center;
+    padding: 16px;
+}
+
+
+.heading4 {
+    text-align: center;
+}
+
+span1 {
+    color: orangered;
+}
+
+.card-container4 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* Hide overflow to only show cards in view */
+
+}
+
+.card-wrapper4 {
+    padding-left: 20px;
+    display: flex;
+    transition: transform 0.3s ease;
+    /* Smooth transition for sliding effect */
+
+}
+
+/* .card-frame {
+    display: flex;
+    padding: 32px 100px;
+} */
+
+.card4 {
+    flex: 0 0 22%;
+    /* Show 4 cards per page (100% / 4 = 25%) */
+    box-sizing: border-box;
+    width: 60%;
+    border: 1px solid rgb(225, 223, 223);
+    border-radius: 10px;
+    padding-bottom: 16px;
+    margin-right: 39px;
+    position: relative;
+    /* Ensure the overlay is positioned correctly */
+}
+
+.card-img-container4{
+    position: relative;
+    /* Container to position the overlay */
+}
+
+.card-img4 {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+
+.country4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 28px;
+    margin-bottom: 18px;
+}
+
+
+
+
+
+.move-btn {
+    text-align: center;
+    padding: 16px;
+}
+
+
+
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.testimonial-content {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.testimonial-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.testimonial-content h2 span {
+    color: #ff7043;
+}
+
+.testimonial-content p {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.testimonial-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: #ff7043;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #ff5722;
+}
+
+.testimonial-box {
+    flex: 1;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.testimonial-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    border: 3px solid #fff;
+}
+
+blockquote {
+    margin: 20px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.testimonial-location {
+    font-size: 0.9em;
+    color: #888;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e55500;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5%;
+    background-color: #ffefe0;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.hero h1 span {
+    color: #ff6600;
+}
+
+.hero p {
+    color: #666;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.things-to-do {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f1f5f8;
+}
+
+.things-to-do h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.things-to-do h2 span {
+    color: #ff6600;
+}
+
+.things-to-do p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card .icon {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin: 10px 0
+}
+.subscribe-section {
+    background-color: #ff7043;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.subscribe-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.subscribe-section form {
+    display: inline-block;
+    position: relative;
+}
+
+.subscribe-section input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.subscribe-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h2, .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-media a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
